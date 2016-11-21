@@ -6,6 +6,9 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devtool: 'source-map',
+    resolve: {
+        extensions: ['', '.jsx', '.js']
+    },
     entry: [
         'webpack-dev-server/client?http://localhost:3000',
         'webpack/hot/only-dev-server',
@@ -38,14 +41,14 @@ module.exports = {
     module: {
         preLoaders: [
             {
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loader: 'eslint'
             }
         ],
         loaders: [
             {
-                test: /\.js?$/,
+                test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loader: 'babel'
             },

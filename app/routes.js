@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 import App from './components/App';
-import VideoList from './containers/VideoList';
+import VideoList from './containers/VideoList/VideoList';
 import About from './components/About';
 
 export default (
