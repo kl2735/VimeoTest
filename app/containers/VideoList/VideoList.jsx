@@ -15,7 +15,6 @@ export class VideoList extends React.Component {
 	}
 
 	renderVideos(videos) {
-
 		return videos.map(video => (
 				<VideoCard 
 					key={video.id}

@@ -8,6 +8,7 @@ const URL_REGEX = /(https?:\/\/\S+|www.\S+)/gi;
 
 export default class VideoCard extends React.Component {
 	renderDescription() {
+		// break down the description based on line-break, and also need to parse the url inside
 		return this.props.description.split(/<br \/> ?\r\n ?<br \/>/).map((item, k) => {
 			return <p key={k}>
 				{item.split(/<br \/> ?/).map((subItem, i) => {
@@ -17,7 +18,8 @@ export default class VideoCard extends React.Component {
 							reactStringReplace(subItem, URL_REGEX, (matched, j) => (
 								<a key={j} 
 									href={matched.startsWith('www.')?`\\\\${matched}`:matched} 
-									target='blank'>{matched}
+									target='blank'>
+									{matched}
 								</a>
 							))
 						}

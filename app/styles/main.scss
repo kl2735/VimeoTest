@@ -1,5 +1,11 @@
 @import "../../node_modules/lucid-ui/dist/index.css";
-@import "./rotating-card.css";
+@import "./rotating-card.scss";
+
+body {
+	font-size: 14px;
+	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
+	background-color: #E5E9ED;
+}
 
 footer {
 	margin-top: 20px;
