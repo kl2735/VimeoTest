@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () =>
     <div>
-        Just a dummy page to showcase react-router!
+        Keep calm and use react router!
     </div>;
 
 
