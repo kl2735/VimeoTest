@@ -1,7 +1,7 @@
 {
-  "name": "webpack-react-redux",
+  "name": "VimeoTest",
   "version": "1.0.0",
-  "description": "A boilerplate for playing around with react, redux and react-router with the help of webpack.",
+  "description": "vimeo project",
   "main": "index.js",
   "scripts": {
     "test": "",
@@ -14,7 +14,7 @@
     "react",
     "redux"
   ],
-  "author": "Jean-Pierre Sierens",
+  "author": "Ke Liao",
   "license": "MIT",
   "dependencies": {
     "es6-promise": "^4.0.5",
