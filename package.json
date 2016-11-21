@@ -22,6 +22,7 @@
     "isomorphic-fetch": "^2.2.1",
     "lucid-ui": "^2.3.1",
     "react": "^15.0.2",
+    "react-addons-css-transition-group": "^15.4.0",
     "react-dom": "^15.0.2",
     "react-hot-loader": "^3.0.0-beta.2",
     "react-redux": "^4.4.5",
