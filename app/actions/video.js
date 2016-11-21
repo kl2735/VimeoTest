@@ -14,7 +14,7 @@ export const video = {
 		payload: videos
 	}),
 
-	//async actions
+	//async actions (thunk)
 	loadVideos: () => (dispatch) => {
 		dispatch(video.videosLoading());
 

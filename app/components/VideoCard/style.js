@@ -24,6 +24,8 @@ export default {
 	},
 	description: {
 		height: '110px',
-		overflowY: 'auto'
+		overflowY: 'auto',
+		backgroundColor: '#ecf0f1',
+    	fontStyle: 'italic'
 	}
 };
